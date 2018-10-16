@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "782253726888",
+    "firebase_url": "https://fir-authentication-bcc32.firebaseio.com",
+    "project_id": "fir-authentication-bcc32",
+    "storage_bucket": "fir-authentication-bcc32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782253726888:android:03bf4f822525a018",
+        "android_client_info": {
+          "package_name": "in.learncodeonline.lcologin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782253726888-baslb057a1ijg6850nr1sjtt1uj3dqll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.learncodeonline.lcologin",
+            "certificate_hash": "f30b08c3905c391a322e74b5232d0376492d2fa7"
+          }
+        },
+        {
+          "client_id": "782253726888-4j7abpu6ro5gmoev1lc19c2912vmnbvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKc6u4Dr-eHcI1NUvbKllaEAyhwXpIA4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782253726888-4j7abpu6ro5gmoev1lc19c2912vmnbvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

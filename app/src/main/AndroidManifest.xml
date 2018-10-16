@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.fullstackcube.firebaseauthentication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="in.fullstackcube.firebaseauthentication.LoginActivity"
+            android:label="LCO Authentication"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="in.fullstackcube.firebaseauthentication.SignUpActivity"
+            android:label="Registeration"
+            android:parentActivityName="in.fullstackcube.firebaseauthentication.LoginActivity"></activity>
+        <activity
+            android:name="in.fullstackcube.firebaseauthentication.Forget"
+            android:label="ForgetPassword"
+            android:parentActivityName="in.fullstackcube.firebaseauthentication.LoginActivity"></activity>
+        <activity
+            android:name="in.fullstackcube.firebaseauthentication.HomePageActivity"
+            android:label="LCO Authentication"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

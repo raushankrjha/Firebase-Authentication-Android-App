@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="24dp"
+    android:paddingLeft="24dp"
+    android:background="#e60e171e">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/lco"
+                android:padding="4dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="16dp"
+                android:drawablePadding="16dp"
+                android:hint="Email Address"
+                android:textColorHint="#1d1d1d"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/bkgrd_redlogin1"
+                android:id="@+id/editText_emailAddress"
+                android:layout_marginTop="32dp"
+                android:drawableRight="@drawable/ic_person_white_24dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="16dp"
+                android:hint="password"
+                android:textColorHint="#212121"
+                android:maxLines="1"
+                android:id="@+id/editText_password"
+                android:inputType="textPassword"
+                android:drawableRight="@drawable/ic_lock_white_24dp"
+                android:background="@drawable/bkgrd_redlogin1"
+                android:layout_marginTop="16dp"
+                android:drawablePadding="16dp"/>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/forget"
+                android:text="Forget Password ?"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:clickable="true"
+
+                />
+            <Button
+            android:id="@+id/blogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Login"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:textAllCaps="false"
+                android:background="@drawable/bkgd_transparent1"/>
+            <Button
+                android:id="@+id/bttnsignup"
+                android:background="@drawable/bkgd_transparent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Sign Up"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textAllCaps="false"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
